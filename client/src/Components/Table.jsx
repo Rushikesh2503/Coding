@@ -49,8 +49,6 @@ const style = {
   p: 4,
 };
 
-const rows = ["Rahul", "Abhi", "MAhesh"];
-
 export default function CustomizedTables() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
